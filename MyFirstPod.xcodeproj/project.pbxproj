@@ -13,6 +13,8 @@
 		344CD4C1222FD91000B0CC59 /* MyFirstPod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 344CD4BF222FD91000B0CC59 /* MyFirstPod.xcdatamodeld */; };
 		344CD4C3222FD91100B0CC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344CD4C2222FD91100B0CC59 /* Assets.xcassets */; };
 		344CD4C6222FD91100B0CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344CD4C4222FD91100B0CC59 /* LaunchScreen.storyboard */; };
+		344CD4CE222FD92700B0CC59 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CD4CD222FD92700B0CC59 /* MyView.swift */; };
+		344CD4D0222FDC7A00B0CC59 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CD4CF222FDC7A00B0CC59 /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		344CD4C2222FD91100B0CC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344CD4C5222FD91100B0CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344CD4C7222FD91100B0CC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344CD4CD222FD92700B0CC59 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		344CD4CF222FDC7A00B0CC59 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		344CD4B7222FD90F00B0CC59 /* MyFirstPod */ = {
 			isa = PBXGroup;
 			children = (
+				344CD4CD222FD92700B0CC59 /* MyView.swift */,
 				344CD4B8222FD90F00B0CC59 /* AppDelegate.swift */,
 				344CD4BA222FD90F00B0CC59 /* ViewController.swift */,
 				344CD4BC222FD90F00B0CC59 /* Main.storyboard */,
+				344CD4CF222FDC7A00B0CC59 /* SampleViewController.swift */,
 				344CD4C2222FD91100B0CC59 /* Assets.xcassets */,
 				344CD4C4222FD91100B0CC59 /* LaunchScreen.storyboard */,
 				344CD4C7222FD91100B0CC59 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344CD4D0222FDC7A00B0CC59 /* SampleViewController.swift in Sources */,
+				344CD4CE222FD92700B0CC59 /* MyView.swift in Sources */,
 				344CD4BB222FD90F00B0CC59 /* ViewController.swift in Sources */,
 				344CD4B9222FD90F00B0CC59 /* AppDelegate.swift in Sources */,
 				344CD4C1222FD91000B0CC59 /* MyFirstPod.xcdatamodeld in Sources */,
